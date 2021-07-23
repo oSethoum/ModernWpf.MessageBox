@@ -1,17 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
   <PropertyGroup>
-    <Company>OpenByte</Company>
-    <Authors>OpenByte</Authors>
+    <Company>sSethoum</Company>
+    <Authors>oSethoum</Authors>
     <PackageId>ModernWpf.MessageBox</PackageId>
-    <Product>ModernWpf.MessageBox</Product>
+    <Product>ModernWpfUIs.MessageBox</Product>
     <Description>An alternative to System.Windows.MessageBox using ModernWpfUI windows.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/OpenByteDev/ModernWpf.MessageBox</PackageProjectUrl>
+    <PackageProjectUrl></PackageProjectUrl>
     <RepositoryUrl>https://github.com/OpenByteDev/ModernWpf.MessageBox</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>WPF XAML UI Theme Controls Fluent Modern Metro WinUI</PackageTags>
-    <Version>0.5.1</Version>
+    <Version>0.5.2</Version>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -33,7 +33,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="ModernWpfUI" Version="0.9.4" />
+    <PackageReference Include="ModernWpfUis" Version="1.2.0" />
   </ItemGroup>
 
 </Project>
